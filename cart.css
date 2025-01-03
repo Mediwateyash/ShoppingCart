@@ -85,3 +85,18 @@ ul:last-of-type {
     justify-content: space-between;
     margin-top: 20px;
 }
+.cbutton {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    background: #ff5722;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.cbutton:hover {
+    background: #e64a19;
+    transform: scale(1.05);
+}
